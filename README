@@ -1,0 +1,33 @@
+System Monitor App
+This is a simple system monitoring application that tracks the usage of CPU, RAM, and disk space on your computer. The application is built using PyQt5 and allows you to view real-time data as well as record it over time for analysis.
+
+Key Features:
+Real-time Monitoring: Displays current CPU, RAM, and disk usage.
+Customizable Interval: You can set the update interval for monitoring (between 100ms to 10 seconds).
+Recording Metrics: Allows you to start and stop recording system metrics, saving the data to a SQLite database.
+Timer: Displays how long the recording has been running.
+Background:
+I have previously developed various applications such as a calculator, weather forecast app, and an app to display the current city based on location. These projects allowed me to practice and enhance my skills in Python, including UI development using PyQt5. My experience with creating these applications laid a solid foundation for building more complex tools like this system monitor, where I can further explore working with databases, real-time data, and user interfaces.
+
+For this project, I spent around 4-5 hours learning how to gather system data, record it in a database, and use various modules effectively in this case. The knowledge I gained during this time allowed me to implement the necessary functionality to create a fully working system monitor.
+
+This project demonstrates my ability to build fully functional applications, leveraging various libraries and modules to create tools that provide meaningful and real-time insights to users.
+
+Requirements:
+Python 3.x
+PyQt5
+psutil
+sqlite3
+How to Run:
+Clone or download this repository.
+Install required dependencies:
+
+pip install PyQt5 psutil
+Run the application:
+
+python system_monitor.py
+
+How It Works:
+The app continuously monitors system performance (CPU, RAM, disk) and displays the statistics in the GUI.
+You can start or stop recording metrics with the "Start Recording" and "Stop Recording" buttons.
+Recorded data is stored in a local SQLite database, allowing for future analysis.
