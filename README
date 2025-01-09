@@ -9,9 +9,7 @@ Timer: Displays how long the recording has been running.
 Background:
 I have previously developed various applications such as a calculator, weather forecast app, and an app to display the current city based on location. These projects allowed me to practice and enhance my skills in Python, including UI development using PyQt5. My experience with creating these applications laid a solid foundation for building more complex tools like this system monitor, where I can further explore working with databases, real-time data, and user interfaces.
 
-For this project, I spent around 4-5 hours learning how to gather system data, record it in a database, and use various modules effectively in this case. The knowledge I gained during this time allowed me to implement the necessary functionality to create a fully working system monitor.
-
-This project demonstrates my ability to build fully functional applications, leveraging various libraries and modules to create tools that provide meaningful and real-time insights to users.
+This test project demonstrates my ability to build fully functional applications, leveraging various libraries and modules to create tools that provide meaningful and real-time insights to users.
 
 Requirements:
 Python 3.x
